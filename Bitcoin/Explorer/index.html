@@ -9,16 +9,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-
-<div class="jumbotron text-center">
-  <h1>Bitcoin</h1>
-</div>
-  
-<div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <h3> Info </h3>
-		<script> var xmlhttp = new XMLHttpRequest();
+	<script> var xmlhttp = new XMLHttpRequest();
             xmlhttp.onreadystatechange = function() {
                 if (this.readyState == 4 && this.status == 200)
                 {
@@ -28,16 +19,21 @@
     			}
             xmlhttp.open("GET", "https://bitcoin.mubiz.com/info", true);
             xmlhttp.send();
-		</script>
-    	<div class="row">
-	<div class="col-sm-4">
+	</script>
+	<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Info</h3><div class="row">
+	<div class="col-lg-12 col-xs-6">
     	<pre>
         	<code id="demo1" class="json kljs"></code>
     	</pre>
 	</div>
 </div>
-</div>
-</div>
-</div>
+    </div>
+		</div>
+	</div>
+
+	
 </body>
 </html>
