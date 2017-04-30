@@ -1,32 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-<body>
+<div class="container text-center">
+				      
+      <form class="form-inline">
+	  <div class="form-group">
+	    <label class="sr-only" for="exampleInputAdress3">Address</label>
+	    <input type="adress" class="form-control" id="exampleInputAdress3" placeholder="Adress">
+	  </div>
+	      
 
-<div class="container">
-  <h2>Formulaire</h2>
-  <form action="/action_page.php">
-    <div class="form-group">
-      <label for="email">Email:</label>
-      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-    </div>
-    <div class="form-group">
-      <label for="pwd">Password:</label>
-      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
-    </div>
-    <div class="checkbox">
-      <label><input type="checkbox" name="remember"> Remember me</label>
-    </div>
-    <button type="submit" class="btn btn-default">Submit</button>
+	      <div class="form-group" margin="20px">
+		<label class="sr-only" for="exampleInputHash3"> Transaction hash</label>
+	    <input type="hash" class="form-control" id="exampleInputHash3" placeholder="Transaction hash">
+		  
+	      </div>	  
+      </form>
+
+      <form class="form-inline">
+	  <div class="form-group">
+	    <label class="sr-only" for="exampleInputHash3"> Block hash</label>
+	    <input type="hash" class="form-control" id="exampleInputHash3" placeholder="Block hash">
+		  
+	  </div>
+
+	      <div class="form-group">
+	    <label class="sr-only" for="exampleInputIndex3"> Index</label>
+	    <input type="index" class="form-control" id="exampleInputIndex3" placeholder="Index">
+	  </div>
   </form>
-</div>
-
-</body>
-</html>
