@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+		container{
+			position:relative;
+		}
+		center {
+		    position: absolute;
+		    left: 0;
+		    top: 50%;
+		    width: 100%;
+		    text-align: center;
+		    font-size: 18px;
+		}
+		body {
+	    background-image: url("http://bookhunterclub.com/wp-content/uploads/2013/06/big-data.jpg");
+	    background-repeat: no-repeat;
+	    background-position: right top;
+	    margin-right: 200px;
+		}
+		h1{
+			color: white;
+		}
+		h2{
+			color: white;
+		}
+		</style>
+
+		  <title>Bootstrap Example</title>
+		  <meta charset="utf-8">
+		  <meta name="viewport" content="width=device-width, initial-scale=1">
+		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSite</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Bitcoin<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Explorer</a></li>
+        </ul>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+		<h1>TP1 Explorateur Bitcoin</h1>
+		<h2>Bienvenue sur l'API Bitcoin de: </h2> 
+		<h3>David et Toitiane !</h3>
+	</body>
+</html>
